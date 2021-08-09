@@ -1,0 +1,64 @@
+/* 
+    Store Name:  Mobile Cash
+    Date: July 18, 2021
+    Author: Chiaka Nwosu chickadeewebdesigns@gmail.com
+    Description: WEBD-410 Hello World - Bootstrap 07/30/2021
+*/
+
+/*
+    Name: Chiaka Nwosu
+    Color #1: mint green       #27FF95 
+    Color #2: indigo           #5940FF
+    Color #3: cherry red       #FF2A0D
+    Color #4: golden yellow    #FFE119
+    Color #5: black            #000000
+*/
+
+body{
+    margin:0px;
+}
+a {
+    color:#5940FF;
+}
+header {
+    background: #27FF95;
+    padding: 25px;
+}
+.imgleft{
+    text-align: left;
+    float: left;
+    left: 0px;
+    width: 100px;
+    height: 200px;
+}
+.lists {
+    clear: both;
+}
+.important {
+    color: #5940FF;
+}
+.warning {
+    color: #FFE119;
+}
+.error {
+    color: #FF2A0D;
+}
+.success {
+    color: #27FF95;
+}
+footer {
+    background: #27FF95;
+    padding: 50px;
+}
+
+
+
+/* BLOG *********************/
+.blog-entry {
+    display:grid;
+    grid-template-columns: 150px auto;
+    gap:40px;
+}
+.blog-entry {
+    margin: 40px 0;
+}
